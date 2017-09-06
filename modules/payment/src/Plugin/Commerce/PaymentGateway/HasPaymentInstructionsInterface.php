@@ -15,6 +15,7 @@ interface HasPaymentInstructionsInterface {
    * Builds the payment instructions.
    *
    * @param \Drupal\commerce_payment\Entity\PaymentInterface $payment
+   *   The payment.
    *
    * @return array
    *   A render array containing the payment instructions.
